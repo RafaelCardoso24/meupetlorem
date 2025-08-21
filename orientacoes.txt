@@ -1,0 +1,20 @@
+-----------Configuração para o projeto-----------
+
+1- Baixar pasta zip das imagens do projeto
+
+2- Clonar o repositório 'petLorem' ou repositório do seu projeto
+
+3- Extrair as imagens da pasta zipada e colocar na pasta do repositório do projeto PetLorem clonado do GitHub
+
+
+---------------Base dos arquivos html e css-------
+4- Copiar o conteúdo os arquivos do link:
+https://github.com/techcomkathia/DC-L10-JS/tree/main/MATERIAL_ATIVIDADES/aula12
+
+5- Observar o conteúdo do html e ler o que se pede:
+5.1  Criar o nav bar com o componente https://getbootstrap.com/docs/5.0/components/navbar/#nav
+fazendo a substituição dos hrefs pelos ids das sessões e do texto Navbar, pela imagem de logo. 
+
+5.2 Criar carrossel com base no exemplo final: https://techcomkathia.github.io/PetLoremFinal/
+https://getbootstrap.com/docs/5.0/components/carousel/#with-captions
+Substituindo as imagens e textos necessários. 

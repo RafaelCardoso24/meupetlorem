@@ -19,3 +19,8 @@ h1 {
     font-size: 3rem;
     color: rgb(33, 11, 58);
 }
+
+a {
+    font-family: 'Lilita One', cursive;
+    color: rgb(245, 242, 189);
+}
