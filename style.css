@@ -20,7 +20,8 @@ h1 {
     color: rgb(33, 11, 58);
 }
 
-a {
+#navbarNav a {
     font-family: 'Lilita One', cursive;
     color: rgb(245, 242, 189);
+    font-size: 25px;
 }
