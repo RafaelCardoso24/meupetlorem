@@ -6,17 +6,45 @@
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <title>Projeto Aula Prática</title>
+  <link rel="stylesheet" href="style.css">
   <!-- link aqui o seu css -->
 </head>
 <body>
 
     <header>
-        <h1>Texte</h1>
         <!-- ================= NAVBAR =================
         Componente: Navbar
         Doc: https://getbootstrap.com/docs/5.0/components/navbar/ 
         -->
-
+  <nav class="navbar navbar-expand-lg navbar-light gradiente">
+        <div class="container-fluid">
+            <img src="img/logo (1).png" alt="" width="100">
+            <h1><a class="navbar-brand" href="#">PetLorem</a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-end">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#sobreNos">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" >Equipe</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" >Contato</a>
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+        </nav>
         
     </header>
 
