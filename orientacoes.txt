@@ -1,15 +1,14 @@
 -----------Configuração para o projeto-----------
+1- Crie um repositório vazio com o seu usuário ( não adicione arquivo readme nem o git ignore)
+2- Clone o repositório https://github.com/techcomkathia/petLorem2.git para sua máquina
+3- Faça as remoções e configurações do repositório petLorem2 que você acabou de clonar com os comandos abaixo:
 
-1- Baixar pasta zip das imagens do projeto
+git remote remove origin
+git remote add origin https://github.com/owner/repo.git (coloque a url do repositório que você criou no seu usuário)
+git config user.name "Seu Nome"
+git config user.email "seu@exemplo.com"
 
-2- Clonar o repositório 'petLorem' ou repositório do seu projeto
-
-3- Extrair as imagens da pasta zipada e colocar na pasta do repositório do projeto PetLorem clonado do GitHub
-
-
----------------Base dos arquivos html e css-------
-4- Copiar o conteúdo os arquivos do link:
-https://github.com/techcomkathia/DC-L10-JS/tree/main/MATERIAL_ATIVIDADES/aula12
+4- Seguindo esses passos o repositório base da atividade agora estará configurado apontando para o repositório correto, do seu usuário. 
 
 5- Observar o conteúdo do html e ler o que se pede:
 5.1  Criar o nav bar com o componente https://getbootstrap.com/docs/5.0/components/navbar/#nav
